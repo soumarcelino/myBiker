@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">myBiker</string>
+    <string name="title_activity_request_autorization">Authorization</string>
+    <string name="acurracy">Accuracy %1$sm</string>
+    <string name="speed">%1$s km/h</string>
+    <string name="permission_alert_msg">Authorize the use of your location</string>
+    <string name="permission_alert_text">To continue it is necessary to allow access to the location</string>
+    <string name="permission_alert_button_label">Allow access</string>
+
+</resources>

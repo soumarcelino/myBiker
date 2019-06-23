@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acurracy">Acurácia %1$sm</string>
+    <string name="permission_alert_msg">Autorize o uso da sua localização</string>
+    <string name="speed">%1$s km/h</string>
+    <string name="title_activity_request_autorization">Autorização</string>
+    <string name="permission_alert_text">Para continuar é necessário permitir o acesso a localização</string>
+    <string name="permission_alert_button_label">Permitir acesso</string>
+</resources>
