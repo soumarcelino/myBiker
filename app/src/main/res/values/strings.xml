@@ -6,5 +6,7 @@
     <string name="permission_alert_msg">Authorize the use of your location</string>
     <string name="permission_alert_text">To continue it is necessary to allow access to the location</string>
     <string name="permission_alert_button_label">Allow access</string>
+    <string name="title_activity_map">Map</string>
+    <string name="navigation_button">Navigation</string>
 
 </resources>

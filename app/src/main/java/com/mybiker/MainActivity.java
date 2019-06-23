@@ -11,6 +11,7 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import java.text.DecimalFormat;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     private LocationManager locationManager;
     private TextView speedLabel, accuracyLabel;
     private Resources resources;
+    public static Double latitude, longitude;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +49,14 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
 
         speedLabel.setText(resources.getString(R.string.speed, speed));
         accuracyLabel.setText(resources.getString(R.string.acurracy, accuracy));
+
+        latitude = location.getLatitude();
+        longitude = location.getLongitude();
+    }
+
+    public void openMap(View v){
+        Intent it = new Intent(this, Map.class);
+        startActivity(it);
     }
 
     @Override
